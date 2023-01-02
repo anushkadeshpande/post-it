@@ -1,0 +1,100 @@
+
+a {
+    text-decoration: none;
+}
+.MainScreen__header {
+    background-color: #F3558E;
+    height: 20vh;
+    width: 100%;
+    font-size: 64px;
+    color: #fff;
+    box-sizing: border-box;
+    padding-left: 60px;
+    display: flex;
+    align-items: center;
+}
+
+
+#add-project-btn  {
+    background-color: #FC5185;
+    height: 60px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: #fff;
+}
+
+#add-project-btn > svg {
+    height: 30px;
+    width: 30px
+}
+
+#add-project-btn > p {
+    font-size: 25px;
+}
+
+#add-project-btn:hover {
+    background-color: #ffd6e5;
+    color: #F3558E;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.MainScreen__projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    overflow-y: scroll;
+
+    margin:40px 40px 0px 40px ;
+}
+
+.projects_tab {
+    background-color: #ffd6e5;
+    width: 70%;
+    margin-left: 60px;
+    margin-top: 30px;
+    height: 70px;
+    border-radius: 10px;
+    color: #F3558E;
+    font-size: 25px;
+    box-sizing: border-box;
+    padding: 20px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+.project_tab_options {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project_tab_options > svg {
+    height: 30px;
+    width: 30px;
+
+}
+
+.MainScreen__projects::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  .MainScreen__projects::-webkit-scrollbar-track {
+    background-color: #FDD8E5;
+    border-radius: 5px;
+  }
+
+  .MainScreen__projects::-webkit-scrollbar-thumb {
+    background-color: #FF6DA2;
+    border-radius: 5px;
+  }
